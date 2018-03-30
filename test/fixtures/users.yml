@@ -5,13 +5,9 @@ one:
   photo_url: MyString
   email: MyString
   password: MyString
-  post: one
-  city: one
 
 two:
   name: MyString
   photo_url: MyString
   email: MyString
   password: MyString
-  post: two
-  city: two
