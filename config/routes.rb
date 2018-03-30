@@ -4,8 +4,8 @@ Rails.application.routes.draw do
       resources :city do
         resources :post do
           resources :user do
-        
+          end
         end
       end
     end
-  end
+end
