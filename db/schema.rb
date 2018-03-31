@@ -10,11 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180330212920) do
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> 438e26998c8731f973e1aa2492d06826886ba0d6
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "cities", force: :cascade do |t|
     t.string "name"
     t.string "image_url"
@@ -47,4 +52,6 @@ ActiveRecord::Schema.define(version: 20180330212920) do
 
   add_foreign_key "posts", "cities"
   add_foreign_key "posts", "users"
+=======
+>>>>>>> 438e26998c8731f973e1aa2492d06826886ba0d6
 end
